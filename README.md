@@ -29,21 +29,28 @@ To deploy and manage this application effectively, we leverage Kubernetes and a 
 
 Creating and deploying this cloud-native web voting application with Kubernetes offers a valuable learning experience. Here are some key takeaways:
 
-Containerization: Gain hands-on experience with containerization technologies like Docker for packaging applications and their dependencies.
+**Containerization**: Gain hands-on experience with containerization technologies like Docker for packaging applications and their dependencies.
 
-Kubernetes Orchestration: Learn how to leverage Kubernetes to efficiently manage, deploy, and scale containerized applications in a production environment.
+**Kubernetes Orchestration:** Learn how to leverage Kubernetes to efficiently manage, deploy, and scale containerized applications in a production environment.
 
-Microservices Architecture: Explore the benefits and challenges of a microservices architecture, where the frontend and backend are decoupled and independently scalable.
+**Microservices Architecture:** Explore the benefits and challenges of a microservices architecture, where the frontend and backend are decoupled and independently scalable.
 
-Database Replication: Understand how to set up and manage a MongoDB replica set for data redundancy and high availability.
+**Database Replication:** Understand how to set up and manage a MongoDB replica set for data redundancy and high availability.
 
-Security and Secrets Management: Learn best practices for securing sensitive information using Kubernetes secrets.
+**Security and Secrets Management:** Learn best practices for securing sensitive information using Kubernetes secrets.
 
-Stateful Applications: Gain insights into the nuances of deploying stateful applications within a container orchestration environment.
+**Stateful Applications:** Gain insights into the nuances of deploying stateful applications within a container orchestration environment.
 
-Persistent Storage: Understand how Kubernetes manages and provisions persistent storage for applications with state.
+**Persistent Storage:** Understand how Kubernetes manages and provisions persistent storage for applications with state.
 
 By working through this project, you'll develop a deeper understanding of cloud-native application development, containerization, Kubernetes, and the various technologies involved in building and deploying modern web applications.
+
+
+
+
+**Summary**
+
+In this Project, you learnt how to deploy a cloud native application into EKS. Once deployed and up and running, you used your local workstation's browser to test out the application. You later confirmed that your activity within the application generated data which was captured and recorded successfully within the MongoDB ReplicaSet back end within the cluster
 
 
 
